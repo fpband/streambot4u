@@ -20,49 +20,44 @@ def get_shortlink(url):
    return shortlink
 
 START_TEXT = """
-<i>👋 Hᴇʏ,</i>{}\n
-<i>I'ᴍ Tᴇʟᴇɢʀᴀᴍ Fɪʟᴇs Sᴛʀᴇᴀᴍɪɴɢ Bᴏᴛ ᴀs ᴡᴇʟʟ Dɪʀᴇᴄᴛ Lɪɴᴋs Gᴇɴᴇʀᴀᴛᴇ</i>\n
-<i>Cʟɪᴄᴋ ᴏɴ Hᴇʟᴘ ᴛᴏ ɢᴇᴛ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ</i>\n
-<i><u>𝗪𝗔𝗥𝗡𝗜𝗡𝗚 🚸</u></i>
-<b>🔞 Pʀᴏɴ ᴄᴏɴᴛᴇɴᴛꜱ ʟᴇᴀᴅꜱ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʙᴀɴ ʏᴏᴜ.</b>\n\n
-<i><b>🍃 Bᴏᴛ Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ :</b>@techiesneh</i>"""
+<b>Hey </b> {}\n
+<b>I am Telegram File Direct Link as well as File Streamer Bot. </b>\n
+<b>✪ Use Help Command to Know how to Use me.</b>\n
+<b><b>✪ Made With 💕 By : </b>@Tellybots_4u</b>"""
 
 HELP_TEXT = """
-<i>- Sᴇɴᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ (ᴏʀ) ᴍᴇᴅɪᴀ ꜰʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ.</i>
-<i>- I ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴇxᴛᴇʀɴᴀʟ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ !.</i>
-<i>- Aᴅᴅ Mᴇ ɪɴ ʏᴏᴜʀ Cʜᴀɴɴᴇʟ Fᴏʀ Dɪʀᴇᴄᴛ Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋs Bᴜᴛᴛᴏɴ</i>
-<i>- Tʜɪs Pᴇʀᴍᴇᴀɴᴛ Lɪɴᴋ Wɪᴛʜ Fᴀsᴛᴇsᴛ Sᴘᴇᴇᴅ</i>\n
-<u>🔸 𝗪𝗔𝗥𝗡𝗜𝗡𝗚 🚸</u>\n
-<b>🔞 Pʀᴏɴ ᴄᴏɴᴛᴇɴᴛꜱ ʟᴇᴀᴅꜱ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʙᴀɴ ʏᴏᴜ.</b>\n
-<i>Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ (ᴏʀ) ʀᴇᴘᴏʀᴛ ʙᴜɢꜱ</i> <b>: <a href='https://t.me/techiesneh'>[ ᴄʟɪᴄᴋ ʜᴇʀᴇ ]</a></b>"""
+<b>✪ Send Me Any File or Media .</b>\n
+<b>✪ I Will Provide You Instant Direct Download link and Online Streaming link.</b>\n
+<b>✪ Add me in Your Channel as Admin To Get Direct Download link button and online Stream Link Button </b>\n
+<b>✪ Streaming Link as well as Instant Link Generator With Fastest Speed</b>\n
+"""
 
 ABOUT_TEXT = """
-<b>⚜ Mʏ ɴᴀᴍᴇ : Sneh Files Stream</b>\n
-<b>🔸Vᴇʀꜱɪᴏɴ : <a href='https://telegram.me/techiesneh'>2.0</a></b>\n
-<b>🔹Sᴏᴜʀᴄᴇ : <a href='https://github.com/techiesneh/SnehFilesStream'>Cʟɪᴄᴋ Hᴇʀᴇ</a></b>\n
-<b>🔸GitHub : <a href='https://GitHub.com/techiesneh'>Fᴏʟʟᴏᴡ</a></b>\n
-<b>🔹Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://telegram.me/techiesneh'>Techie Sneh</a></b>\n
-<b>🔸Lᴀꜱᴛ ᴜᴘᴅᴀᴛᴇᴅ : <a href='https://telegram.me/techiesneh'>[ 6-SEP-21 ] 10:00 PM</a></b>"""
+<b>🤖 My Name : Telly File Stream Bot</b>\n
+<b>🚦 Version : <a href='https://telegram.me/tellybots_4u'>2.0</a></b>\n
+<b>💫 Source Code : <a href='https://t.me/tellybots_digital'>Click Here</a></b>\n
+<b>🗃️ Library : <a href='https://pyrogram.org'>Click Here</a></b>\n
+<b>👲 Developer : <a href='https://telegram.me/tellybots_4u'>TellyBots_4u</a></b>\n
+<b>📦 Last Updated : <a href='https://telegram.me/tellybots_4u'>[ 15-Oct-21 ] 10:00 PM</a></b>"""
 
 START_BUTTONS = InlineKeyboardMarkup(
-        [[
-        InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
-        InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
-        InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close')
-        ]]
+                [
+                    [InlineKeyboardButton('📡 Update Channel', url='https://t.me/tellybots_4u'), InlineKeyboardButton('💬 Support Group', url='https://t.me/tellybots_support')],
+                    [InlineKeyboardButton('🚦 Bot Status', url='https://t.me/tellybots_4u'), InlineKeyboardButton('⛔ Close', callback_data='close')]
+                ]
     )
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Hᴏᴍᴇ', callback_data='home'),
-        InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
-        InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close')
+        InlineKeyboardButton('🏡 Home', callback_data='home'),
+        InlineKeyboardButton('👲 About', callback_data='about'),
+        InlineKeyboardButton('⛔ Close', callback_data='close')
         ]]
     )
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Hᴏᴍᴇ', callback_data='home'),
-        InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
-        InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close')
+        InlineKeyboardButton('🏡 Home', callback_data='home'),
+        InlineKeyboardButton('Help ❔', callback_data='help'),
+        InlineKeyboardButton('⛔ Close', callback_data='close')
         ]]
     )
 
@@ -96,7 +91,7 @@ async def start(b, m):
         await db.add_user(m.from_user.id)
         await b.send_message(
             Var.BIN_CHANNEL,
-            f"**Nᴇᴡ Usᴇʀ Jᴏɪɴᴇᴅ:** \n\n__Mʏ Nᴇᴡ Fʀɪᴇɴᴅ__ [{m.from_user.first_name}](tg://user?id={m.from_user.id}) __Sᴛᴀʀᴛᴇᴅ Yᴏᴜʀ Bᴏᴛ !!__"
+            f"**Nᴇᴡ Usᴇʀ Jᴏɪɴᴇᴅ:** \n\nMy New Freind [{m.from_user.first_name}](tg://user?id={m.from_user.id}) Started Your Bot!!"
         )
     usr_cmd = m.text.split("_")[-1]
     if usr_cmd == "/start":
