@@ -95,11 +95,11 @@ async def private_receive_handler(c: Client, m: Message):
 
 <b>📦 File Size :</b> <b>{}</b>
 
-<b>📥 Download link :</b> <b>{}</b>
+<b>📥 Download :</b> <b>{}</b>
 
 <b>🎬 Watch Online :</b> <b>{}</b>
 
-<b>📝 Note : Link Will be Expired in 24hrs </b>
+<b>📝 Note : Link will be expired in 24hrs </b>
 
 <b>🎉 By @Tellybots_4u </b>"""
 
