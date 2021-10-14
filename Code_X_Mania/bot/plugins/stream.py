@@ -97,11 +97,11 @@ async def private_receive_handler(c: Client, m: Message):
 
 <b>📥 Download link :</b> <b>{}</b>
 
-<b>📺 Watch Online :</b> <b>{}</b>
+<b>🎬 Watch Online :</b> <b>{}</b>
 
 <b>📝 Note : Link Will be Expired in 24hrs </b>
 
-<b>🎉By @Tellybots_4u </b>"""
+<b>🎉 By @Tellybots_4u </b>"""
 
         await log_msg.reply_text(text=f"**Requested By :** [{m.from_user.first_name}](tg://user?id={m.from_user.id})\n**Uꜱᴇʀ ɪᴅ :** `{m.from_user.id}`\n**Download Link :** {stream_link}", disable_web_page_preview=True, parse_mode="Markdown", quote=True)
         await m.reply_text(
