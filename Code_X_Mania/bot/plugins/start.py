@@ -188,18 +188,29 @@ async def start(b, m):
         elif get_msg.audio:
             file_name = f"{get_msg.audio.file_name}"
 
-        stream_link = "https://{}/{}".format(Var.FQDN, get_msg.message_id) if Var.ON_HEROKU or Var.NO_PORT else \
-            "http://{}:{}/{}".format(Var.FQDN,
-                                     Var.PORT,
-                                     get_msg.message_id)
+        stream_link = Var.URL + 'watch/' + str(log_msg.message_id)
+        shortlink = get_shortlink(stream_link)
+        if shortlink:
+            stream_link = shortlink
+        online_link = Var.URL + 'download/' + str(log_msg.message_id)
+        shortlinka = get_shortlink(online_link)
+        if shortlinka:
+            online_link = shortlinka
 
         msg_text ="""
-<i><u>𝗬𝗼𝘂𝗿 𝗟𝗶𝗻𝗸 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 !</u></i>\n
-<b>📂 Fɪʟᴇ ɴᴀᴍᴇ :</b> <i>{}</i>\n
-<b>📦 Fɪʟᴇ ꜱɪᴢᴇ :</b> <i>{}</i>\n
-<b>📥 Dᴏᴡɴʟᴏᴀᴅ :</b> <i>{}</i>\n
-<b>🚸 Nᴏᴛᴇ : Lɪɴᴋ ᴇxᴘɪʀᴇᴅ ɪɴ 24 ʜᴏᴜʀꜱ</b>\n
-<i>🍃 Bᴏᴛ Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ :</i> <b>@techiesneh</b>
+<i><u>𝗬𝗼𝘂𝗿 𝗟𝗶𝗻𝗸 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 !</u></i>
+
+<b>📂 Fɪʟᴇ ɴᴀᴍᴇ :</b> <i>{}</i>
+
+<b>📦 Fɪʟᴇ ꜱɪᴢᴇ :</b> <i>{}</i>
+
+<b>📥 Dᴏᴡɴʟᴏᴀᴅ :</b> <i>{}</i>
+
+<b> 🖥WATCH  :</b> <i>{}</i>
+
+<b>🚸 Nᴏᴛᴇ : LINK WON'T EXPIRE TILL I DELETE</b>
+
+<i>© @AdarshGoelo5 </i>
 """
 
         await m.reply_text(
