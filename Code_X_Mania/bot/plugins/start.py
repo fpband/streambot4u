@@ -23,7 +23,7 @@ START_TEXT = """
 <b>Hey </b> {}\n
 <b>I am Telegram File Direct Link as well as File Streamer Bot. </b>\n
 <b>✪ Use Help Command to Know how to Use me.</b>\n
-<b><b>✪ Made With 💕 By  </b>@Tellybots_4u</b>"""
+<b><b>✪ Made With 💕 By </b>@Tellybots_4u</b>"""
 
 HELP_TEXT = """
 <b>✪ Send Me Any File or Media .</b>\n
@@ -199,7 +199,7 @@ async def start(b, m):
 
 <b>📦 File Size :</b> <b>{}</b>
 
-<b>📥 Download link :</b> <b>{}</b>
+<b>📥 Download :</b> <b>{}</b>
 
 <b>🎬 Watch Online  :</b> <i>{}</i>
 
