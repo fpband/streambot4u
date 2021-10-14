@@ -1,13 +1,23 @@
-# © @techiesneh [ Telegram ]
+# (c) Code-X-Mania
 
-from WebStreamer.bot import StreamBot
-from WebStreamer.vars import Var
-from WebStreamer.utils.human_readable import humanbytes
-from WebStreamer.utils.database import Database
+from Code_X_Mania.bot import StreamBot
+from Code_X_Mania.vars import Var
+from Code_X_Mania.utils.human_readable import humanbytes
+from Code_X_Mania.utils.database import Database
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors import UserNotParticipant
 db = Database(Var.DATABASE_URL, Var.SESSION_NAME)
+from pyshorteners import Shortener
+
+def get_shortlink(url):
+   shortlink = False 
+   try:
+      shortlink = Shortener().dagd.short(url)
+   except Exception as err:
+       print(err)
+       pass
+   return shortlink
 
 START_TEXT = """
 <i>👋 Hᴇʏ,</i>{}\n
