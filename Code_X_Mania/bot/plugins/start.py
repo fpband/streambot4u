@@ -205,7 +205,7 @@ async def start(b, m):
 
 <b>📝 Note : Link Will Be Expired in 24 hrs</b>
 
-<b>By @Tellybots_4u </b>
+<b>🎉 By @Tellybots_4u </b>
 """
 
         await m.reply_text(
