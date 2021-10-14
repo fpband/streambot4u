@@ -203,7 +203,7 @@ async def start(b, m):
 
 <b>🎬 Watch Online  :</b> <i>{}</i>
 
-<b>📝 Note : Link Will Be Expired in 24 hrs</b>
+<b>📝 Note : Link will be expired in 24 hrs</b>
 
 <b>🎉 By @Tellybots_4u </b>
 """
