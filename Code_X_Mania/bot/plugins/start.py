@@ -193,21 +193,26 @@ async def start(b, m):
             online_link = shortlinka
 
         msg_text ="""
+<b>🔗 Your Link Generated 👇 !</b>
 
 <b>🗃️ File Name :</b> <b>{}</b>
 
-<b>📦 File Size :</b> <b>{}</b>
+<b>📔 File Size :</b> <b>{}</b>
 
-<b>📝 Note : Link will be expired in 24hrs </b>
+<b>⬇️ Dᴏᴡɴʟᴏᴀᴅ :</b> <b>{}</b>
 
-<b>🎉 By</b> <b> @Tellybots_4u </b>"""
+<b>🎬 Watch Online :</b> <b>{}</b>
+
+<b>📝 Note : Link Will Be Expired In 24 hrs</b>
+
+<b>By [Tellybots_4u](https://t.me/tellybots_4u) </b>
 """
 
         await m.reply_text(
             text=msg_text.format(file_name, file_size, online_link, stream_link),
             parse_mode="HTML",
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🎬 Watch Online", url=stream_link), #Stream Link
-                                                InlineKeyboardButton('Download 📥', url=online_link)]]) #Download Link
+                                                InlineKeyboardButton('Download ⬇️', url=online_link)]]) #Download Link
         )
 
 
