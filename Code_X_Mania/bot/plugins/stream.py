@@ -89,19 +89,14 @@ async def private_receive_handler(c: Client, m: Message):
             file_name = f"{m.audio.file_name}"
 
         msg_text ="""
-<b>🔗 Your Link Generated 👇</b>
 
 <b>🗃️ File Name :</b> <b>{}</b>
 
 <b>📦 File Size :</b> <b>{}</b>
 
-<b>📥 Download :</b> <b>{}</b>
-
-<b>🎬 Watch Online :</b> <b>{}</b>
-
 <b>📝 Note : Link will be expired in 24hrs </b>
 
-<b>🎉 By @Tellybots_4u </b>"""
+<b>🎉 By</b> <b> @Tellybots_4u </b>"""
 
         await log_msg.reply_text(text=f"**Requested By :** [{m.from_user.first_name}](tg://user?id={m.from_user.id})\n**Uꜱᴇʀ ɪᴅ :** `{m.from_user.id}`\n**Download Link :** {stream_link}", disable_web_page_preview=True, parse_mode="Markdown", quote=True)
         await m.reply_text(
