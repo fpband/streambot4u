@@ -198,7 +198,9 @@ async def start(b, m):
 
 <b>📦 File Size :</b> <b>{}</b>
 
-<b>🎉 By</b> <b>@Tellybots_4u</b>
+<b>📝 Note : Link will be expired in 24hrs </b>
+
+<b>🎉 By</b> <b> @Tellybots_4u </b>"""
 """
 
         await m.reply_text(
